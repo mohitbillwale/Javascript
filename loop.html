@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Loops </title>
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>This is a Heading</h1>
+            <div class="row">
+                <p>As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following "hello world" example, many connections can be handled concurrently. Upon each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.</p>
+            </div>
+        </div>
+        <script>
+            console.log("This is tutorial Java Script");
+            // let i = 0;
+            // for(i = 0; i<3;i++){
+            //     console.log(i);
+            // }
+            let frindes =["Rohan","Mohit","Dipak","Karan"];
+            // for (let index = 0; index < frindes.length; index++) {
+            //     console.log("Hello Frindes, " + frindes[index]);
+                
+            // }
+            // frindes.forEach(function f(element){
+            //     console.log("Hello Frindes, " + element + " to morden JavaScript" );
+            // });
+            // for(element of frindes){
+            //     console.log("Hello Frindes, " + element + " to morden JavaScript again" );
+            // }
+            let employee = {
+                name: "MOHIT",
+                salary: 10000,
+                Message: "This is tutorial Java Script"
+            }
+            for(key in employee){
+                console.log(`The ${key} of employee is ${employee[key]}`);
+            }
+            let i = 0;
+            while(i<4){
+                console.log(`${i} is less than 4 `);
+                i++;
+            }
+            let j = 34;
+            do{
+                console.log(`${j} is less than 4 and we are inside do while loop `);
+                j++;
+            }
+            while(j<4);
+        </script>
+
+    </body>
+</html>

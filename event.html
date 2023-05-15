@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Java Script Event</title>
+
+    </head>
+    <style>
+        #btn{
+            padding: 14px;
+            background-color: red;
+            border: 2px solid black;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <h1>This is a Heading</h1>
+            <div class="row">
+                <p id="pera">As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following "hello world" example, many connections can be handled concurrently. Upon each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.</p>
+            </div>
+            <button id="btn" onclick="hide()">Show/Hide</button>
+        </div>
+        <script>
+            pera.addEventListener('mouseover', function run(){
+            console.log('Mouse Inside');
+        });
+        pera.addEventListener('mouseout', function run(){
+            console.log('Mouse now went outside');
+        });
+           function hide(){
+          let  btn = document.getElementById('btn');
+          let  pera = document.getElementById('pera');
+          if(pera.style.display != 'none'){
+          pera. style.display ='none';
+          }
+          else{
+            pera. style.display ='block';
+          }
+           }
+        </script>
+
+    </body>
+</html>
